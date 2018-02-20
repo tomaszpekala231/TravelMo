@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Project CSS Grid</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body id="home">
+<!-- ======== wrapper STARTS =========== -->
+<div class="wrapper">
+	<!-- main-nav STARTS -->
+	<nav class="main-nav">
+		<span class="open-slide">
+	      <a href="#" onclick="openSlideMenu()">
+	        <svg width="30" height="30">
+	            <path d="M0,5 30,5" stroke="#fff" stroke-width="5"/>
+	            <path d="M0,14 30,14" stroke="#fff" stroke-width="5"/>
+	            <path d="M0,23 30,23" stroke="#fff" stroke-width="5"/>
+	        </svg>
+	      </a>
+	    </span>
+		<div class="top-container">
+			<div class="logo">
+				<p> TravelMo</p>
+			</div>
+			<ul>
+				<li><a href="#home">Home</a></li>
+				<li><a href="#search">Search</a></li>
+				<li><a href="#places">Popular Places</a></li>
+				<li><a href="#gallery">Gallery</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</div><!-- top-container -->
+	</nav><!-- main-nav ENDS -->
+	
+	<!-- side-menu STARTS -->
+	<div id="side-menu" class="side-nav">
+	  	<div class="logoHidden" style=""><h2>TravelMo</h2></div>
+	    <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+	    <hr>
+	    <a href="#">Homes</a>
+	    <hr>
+	    <a href="#">About</a>
+	    <hr>
+	    <a href="#">Services</a>
+	    <hr>
+	    <a href="#">Contact</a>
+	</div>
+	<!-- side-menu ENDS -->
+
+	<!-- home section STARTS -->
+	<section class="home">
+		<div class="overlay">
+			<div class="container">
+				<h1>Group & Individual Journey</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, voluptatibus.</p>
+				<button class="btn btn-main">Learn More</button>
+			</div>
+		</div><!-- overlay ENDS -->
+	</section><!-- home section ENDS -->
+
+	<!-- div search  -->
+	<div class="search" id="search">
+	<div class="container">
+		<h2>Search Destinations</h2>
+		<input type="text" name="search">
+	</div>
+	</div><!-- search ENDS -->
+
+	<!-- section places STARTS -->
+	<section class="places" id="places">
+		<div class="background-light">
+		<div class="container">
+			<div class="boxes">
+				<div class="box">
+					<i class="fas fa-map-marker-alt fa-4x icon-custom"></i>
+					<h4>Pick Where</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim facilis quaerat architecto vitae!</p>
+				</div>
+				<div class="box">
+					<i class="fas fa-plane fa-4x icon-custom"></i>
+					<h4>Travel Shop</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim facilis quaerat architecto vitae!</p>
+				</div>
+				<div class="box">
+					<i class="fas fa-suitcase fa-4x icon-custom"></i>
+					<h4>Fly Cheap</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim facilis quaerat architecto vitae!</p>
+				</div>
+			</div>
+		</div><!-- container ENDS -->
+		</div>
+		<!-- popular-places STARTS -->
+		<div class="popular-places">
+			<div class="container">
+				<h2><span>Popular</span> Places</h2>
+					<div class="boxes-place">
+						<div class="box-place">
+							<div class="box-place-padding">
+							<img src="img/place1.jpg" alt="">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores modi, officia nihil possimus quos ullam.</p>
+							</div>
+						</div>
+						<div class="box-place">
+							<div class="box-place-padding">
+							<img src="img/place2.jpg" alt="">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores modi, officia nihil possimus quos ullam.</p>
+							</div>
+						</div>
+						<div class="box-place">
+							<div class="box-place-padding">
+							<img src="img/place3.jpg" alt="">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores modi, officia nihil possimus quos ullam.</p>
+							</div>
+						</div>
+
+					</div>
+					<a href="#" class="btn-booking"><i class="fas fa-chevron-circle-right icon-booking"></i> Contact for booking</a>
+			</div><!-- container ENDS -->
+		</div><!-- popular-places ENDS -->
+	</section><!-- section places ENDS -->
+	
+	<!-- section social STARTS -->
+	<section class="social">
+		<div class="container">
+			<h2>Follow TravelMo</h2>
+			<p>Follow us on social media for special offers</p>
+			<div class="social-icons">
+				<div class="social-icon">
+					<a href=""><i class="fab fa-facebook-square icon-custom"></i></a>
+				</div>
+				<div class="social-icon">
+					<a href=""><i class="fab fa-twitter icon-custom"></i></a>
+				</div>
+				<div class="social-icon">
+					<a href=""><i class="fab fa-instagram icon-custom"></i></a>
+				</div>
+				<div class="social-icon">
+					<a href=""><i class="fab fa-youtube icon-custom"></i></a>
+				</div>
+				<div class="social-icon">
+					<a href=""><i class="fab fa-google-plus icon-custom"></i></a>
+				</div>
+			</div><!-- social-icons ENDS -->
+		</div><!-- container ENDS -->
+	</section><!-- section social ENDS -->
+
+	<!-- section gallery STARTS -->
+	<section class="gallery" id="gallery">
+		<div class="container">
+			<h2>Photo Gallery</h2>
+			<div class="box-photos">
+				<div class="box-photo">
+					<img src="img/gallery/photo1.jpg" alt="">
+				</div>
+				<div class="box-photo">
+					<img src="img/gallery/photo2.jpg" alt="">
+				</div>
+				<div class="box-photo">
+					<img src="img/gallery/photo3.jpg" alt="">
+				</div>
+				<div class="box-photo">
+					<img src="img/gallery/photo4.jpg" alt="">
+				</div>
+				<div class="box-photo">
+					<img src="img/gallery/photo5.jpg" alt="">
+				</div>
+				<div class="box-photo">
+					<img src="img/gallery/photo6.jpg" alt="">
+				</div>
+				<div class="box-photo">
+					<img src="img/gallery/photo7.jpg" alt="">
+				</div>
+				<div class="box-photo">
+					<img src="img/gallery/photo8.jpg" alt="">
+				</div>
+				<div class="box-photo">
+					<img src="img/gallery/photo9.jpg" alt="">
+				</div>
+				<div class="box-photo">
+					<img src="img/gallery/photo10.jpg" alt="">
+				</div>
+				<div class="box-photo">
+					<img src="img/gallery/photo11.jpg" alt="">
+				</div>
+			</div>
+		</div><!-- container ENDS -->
+	</section><!-- section gallery ENDS -->
+
+	<!-- section contact STARTS -->
+	<section class="contact" id="contact">
+			<div class="blocks">
+				<div class="block-one">
+					<div class="contact-booking">
+						<i class="far fa-envelope icon-custom"></i>
+						<h3>Contact Us For Booking</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit minus possimus et modi cupiditate animi.</p>
+					</div>
+					<div class="location">
+						<h3>Location</h3>
+						<hr>
+						<p>TravelMo Agency</p>
+						<hr>
+						<p>555 Beach rd, Suite 33</p>
+						<hr>
+						<p>Miami FL, 33333</p>
+						<hr>
+					</div>
+				</div><!-- block-one ENDS -->
+				<div class="block-two">
+					<h3>Please fill out this form</h3>
+
+					<form action="" method="POST">
+
+					   <div class="form-group">
+						   <label for="name">Name: </label><br>
+						   <input type="text" name="name">
+					   </div>
+						
+					   <div class="form-group">
+						   <label for="email">Email: </label><br>
+						   <input type="email" name="email">
+					   </div>
+					   <div class="form-group">
+						   <label for="phone">Phone: </label><br>
+						   <input type="number" name="phone">
+					   </div>
+					    <div class="form-group">
+							<textarea name="message" placeholder="Write your message here...">
+							
+							</textarea>
+						</div>
+						<input type="submit" value="SUBMIT" class="btn-submit">
+
+					</form>
+				</div><!-- block-two ENDS -->
+			</div>
+	</section><!-- section contact ENDS -->
+
+	<footer>
+		<h3>TravelMo &#169; 2018</h3>
+	</footer>
+</div><!-- wrapper ENDS -->
+
+<!-- JS -->
+<script src="js/jquery.js"></script>
+ <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+<script src="js/main.js"></script>
+    
+</body>
+</html>
